@@ -3,6 +3,7 @@ Clone this repo then run the following commands in a terminal
 - mkdir <project_name>
 - cd <project_name>
 - yarn install
+- add the Ticket Service api key to server.js
 
 In one terminal shell run:
 - yarn build
