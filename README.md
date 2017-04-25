@@ -1,16 +1,20 @@
-clone this repo then run the following commands in a terminal
+Clone this repo then run the following commands in a terminal
 - brew update && install yarn
 - mkdir <project_name>
 - cd <project_name>
 - yarn install
 
-in one terminal shell run:
+In one terminal shell run:
 - yarn build
 
-and in another terminal run:
+And in another terminal run:
 - yarn start
 
-now go to port 3000 it should say "Hi Y'all!" and "Sup Guys!" in the console
+Go to localhost:3000 it should say "Hi Y'all!" and "Sup Guys!" in the console
 
-you 
+This setup will connect to your local Ticket Service and make an activeGamesInfo call 
+
+You can access the games json data in `window.loadInfo.games` (this is how we currently do loadInfo)
+
+You should now only have to put your JS/JSX files in the src folder
 
