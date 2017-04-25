@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Sample</title>
+</head>
+<body>
+    <div> Hi Y'all! </div>
+    <div id="content"></div>
+    <script type="text/javascript">
+        window.loadInfo = {};
+        <%= `window.loadInfo.games = ${JSON.stringify(games)}` %>
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

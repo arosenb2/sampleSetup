@@ -1,0 +1,33 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "simple koa-webpack-build",
+  "main": "index.js",
+  "author": "Kevin <kmcbrayer77@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "koa": "^1.2.4",
+    "koa-json": "^1.1.3",
+    "koa-request": "^1.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "koa-views": "^4.1.0",
+    "lodash": "^4.6.1",
+    "lodash.includes": "^4.1.2",
+    "lodash.template": "^4.2.5",
+    "path": "^0.12.7",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --watch"
+  }
+}
