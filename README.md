@@ -1,7 +1,6 @@
 Clone this repo then run the following commands in a terminal
 - brew update && install yarn
-- mkdir <project_name>
-- cd <project_name>
+- cd sampleSetup
 - yarn install
 - add the Ticket Service api key to server.js
 
